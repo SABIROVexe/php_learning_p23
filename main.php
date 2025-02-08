@@ -1,5 +1,5 @@
 <?php
-$age = 70;
+$age = readline();
 
 switch (true){
 
@@ -18,5 +18,5 @@ switch (true){
     case $age >= 60:
         echo "старость";
         break;
+    
 }
-?>
